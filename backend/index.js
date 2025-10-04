@@ -14,7 +14,7 @@ connectDB();
 // Middleware
 app.use(
   cors({
-    origin: "https://stryve-six.vercel.app/", // 🔥 Replace this with your actual Vercel frontend URL
+    origin: "*", // 🔥 Replace this with your actual Vercel frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
