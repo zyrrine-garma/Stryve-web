@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // <- add /api
+  baseURL: "https://web-store-fcf1.onrender.com/api", // <- add /api
 });
 
 // GET all products
