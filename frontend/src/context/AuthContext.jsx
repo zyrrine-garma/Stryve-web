@@ -17,10 +17,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const { data } = await axios.post(
-        "https://web-store-fcf1.onrender.com/api/auth/login",
-        { email, password }
-      );
+      const { data } = await axios.post("api/auth/login", { email, password });
       setUser(data.user);
       setToken(data.token);
       return { success: true };
@@ -34,14 +31,11 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (name, email, password) => {
     try {
-      const { data } = await axios.post(
-        "https://web-store-fcf1.onrender.com/api/auth/register",
-        {
-          name,
-          email,
-          password,
-        }
-      );
+      const { data } = await axios.post("api/auth/register", {
+        name,
+        email,
+        password,
+      });
       setUser(data.user);
       setToken(data.token);
       return { success: true };

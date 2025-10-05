@@ -14,9 +14,7 @@ export default function ProductDetails() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch(
-          `https://web-store-fcf1.onrender.com/api/products/${id}`
-        );
+        const res = await fetch(`api/products/${id}`);
         const data = await res.json();
         setProduct(data);
       } catch (error) {
