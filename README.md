@@ -1,6 +1,6 @@
 ---
 
-# ![STRYVE Logo](https://via.placeholder.com/40) STRYVE - Urban Streetwear E-Commerce Platform
+# STRYVE - Urban Streetwear E-Commerce Platform
 
 [![Frontend on Vercel](https://img.shields.io/badge/Frontend-Vercel-black?logo=vercel\&logoColor=white)](https://stryve-six.vercel.app)
 [![Backend on Render](https://img.shields.io/badge/Backend-Render-green?logo=render\&logoColor=white)](https://web-store-fcf1.onrender.com)
